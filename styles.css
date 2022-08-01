@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(201, 177, 142, 0.856);
+}
+.name {
+  text-align: center;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50%;
+  position: sticky;
+  top: 5;
+}
+.welcome {
+  text-align: center;
+}
+.foto {
+  margin: auto;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  gap: 20px;
+}
+.button {
+  background-color: rgb(89, 170, 162);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 50%;
+}
+.button:hover {
+  background-color: wheat;
+}
+.button:active {
+  background-color: rgb(224, 186, 152);
+}
+.contact {
+  color: rgb(168, 142, 130);
+  font-weight: thin;
+}
+.strand {
+  width: 600px;
+  margin: auto;
+  display: block;
+}
+.columns {
+  columns: 3;
+}
+.linkedin {
+  color: blue;
+}
+.copyright {
+  color: rgb(128, 117, 97);
+  position: sticky;
+  bottom: 10px;
+}
