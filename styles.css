@@ -1,3 +1,7 @@
+/* * {
+  outline: 3px dotted aqua;
+}*/
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: rgba(201, 177, 142, 0.856);
@@ -25,13 +29,30 @@ body {
   flex-flow: wrap;
   gap: 20px;
 }
+.h2 {
+  color: black;
+}
+.guestbook {
+  width:400px;
+}
+.kommentarfeld {
+  width: 97.5%;
+  height: 50px;
+}
+.information {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .button {
   background-color: rgb(89, 170, 162);
   color: white;
+  fill: white;
   text-decoration: none;
   text-align: center;
   padding: 10px 20px;
   border-radius: 50%;
+  border: none;
 }
 .button:hover {
   background-color: wheat;
@@ -47,12 +68,34 @@ body {
   width: 600px;
   margin: auto;
   display: block;
+  border-radius: 5%;
+}
+.anker-section {
+  padding-top: 20px;
 }
 .columns {
   columns: 3;
 }
+.anonym {
+  font-size: 5px;
+}
+
+.github-logo {
+  fill: #59aaa2;
+  padding: 5px;
+  display: inline-flex;
+}
+.github-logo:hover {
+  background-color: wheat;
+}
+
 .linkedin {
-  color: blue;
+  color: #59aaa2;
+  display: inline-flex;
+  padding: 5px;
+}
+.linkedin:hover {
+  background-color: wheat;
 }
 .copyright {
   color: rgb(128, 117, 97);
