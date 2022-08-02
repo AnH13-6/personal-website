@@ -7,23 +7,46 @@ body {
   color: white;
   padding: 10px 20px;
   border-radius: 50%;
-  position: sticky;
-  top: 5;
 }
 .welcome {
   text-align: center;
+  margin: 20px;
+}
+.top-part {
+  display: flex;
+  justify-content: center;
 }
 .foto {
-  margin: auto;
-  display: block;
   width: 150px;
   height: 150px;
+  margin: 20px;
+}
+.anker-section {
+  margin: 20px;
 }
 .button-group {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
   gap: 20px;
+  margin-bottom: 20px;
+}
+.h2 {
+  color: black;
+  margin: 20px;
+}
+.guestbook {
+  width:400px;
+  margin: 20px;
+}
+.kommentarfeld {
+  width: 97.5%;
+  height: 50px;
+}
+.information {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .button {
   background-color: rgb(89, 170, 162);
@@ -32,6 +55,9 @@ body {
   text-align: center;
   padding: 10px 20px;
   border-radius: 50%;
+  border: none;
+  margin: 10px;
+  
 }
 .button:hover {
   background-color: wheat;
@@ -42,20 +68,44 @@ body {
 .contact {
   color: rgb(168, 142, 130);
   font-weight: thin;
+  margin: 20px;
 }
 .strand {
   width: 600px;
   margin: auto;
   display: block;
+  border-radius: 5%;
+  margin: 20px;
+}
+.anker-section {
+  margin: 20px;
 }
 .columns {
   columns: 3;
+  margin: 20px;
 }
+.anonym {
+  font-size: 5px;
+}
+
+.github-logo {
+  fill: #59aaa2;
+  padding: 5px;
+  display: inline-flex;
+  margin: 20px;
+}
+.github-logo:hover {
+  background-color: wheat;
+}
+
 .linkedin {
-  color: blue;
+  color: #59aaa2;
 }
+
 .copyright {
   color: rgb(128, 117, 97);
-  position: sticky;
+  display: flex;
+  position: fixed;
   bottom: 10px;
+  margin: 20px;
 }
